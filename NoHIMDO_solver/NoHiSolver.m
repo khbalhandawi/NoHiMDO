@@ -12,7 +12,7 @@
 %                                                                                     %
 %  This program is free software: you can redistribute it and/or modify it under the  %
 %  terms of the GNU Lesser General Public License as published by the Free Software   %
-%  Foundation, eitherBasi version 3 of the License, or (at your option) any later         %
+%  Foundation, eitherBasi version 3 of the License, or (at your option) any later     %
 %  version.                                                                           %
 %                                                                                     %
 %  This program is distributed in the hope that it will be useful, but WITHOUT ANY    %
@@ -195,7 +195,7 @@ for no = 1:NO
     % User's display
     %======================================================================
     if isfield(PB,'end_of_iter_file')
-        eval([PB.end_of_iter_file '(PB,x,v,w);']);
+        eval([PB.end_of_iter_file '(PB,x,v,w,obj);']);
     end
 
 
@@ -220,6 +220,7 @@ for no = 1:NO
         si(Ls) = ' '; si = si(1:Ls); s = [s si];
         disp(s);
     end
+    PB.no = no;
 
   
     %===========================================%

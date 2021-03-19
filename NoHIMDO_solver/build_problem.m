@@ -529,6 +529,8 @@ S(S<=0)=1;
 S = 0.5*(S(L(1,:))+S(L(2,:)));
 PB.q_scale = S;
 
+% Outerloop index
+PB.no = 0;
 
 for i=1:NX
     v  = PB.x_index_to_var_index(i);
