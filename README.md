@@ -6,12 +6,12 @@ This is a fork of [NoHiMDO](https://github.com/bastientalgorn/NoHiMDO) intended 
 # Example usage
 
 To launch an analytical target cascading problem, you must define:
-- A definition file (ex. [SBJ_problem_definition_1.m](SBJ_problem_definition_1.m) and [SBJ_problem_definition_1.m](SBJ_problem_definition_1.m)
+- A definition file (ex. [Basic_problem_definition.m](Basic_problem_definition.m))
 	- Describes the nature of the variables in each subproblem
-- A subproblem analysis file (ex. [SBJ_subsystem_analysis_1.m](SBJ_subsystem_analysis_1.m) and [SBJ_subsystem_analysis_2.m](SBJ_subsystem_analysis_2.m)
+- A subproblem analysis file (ex. [Basic_subsystem_analysis.m](Basic_subsystem_analysis.m))
 	- Describes how the objectives, constraints, and coupling variables are calculated from the discipline variables
 
-Launch the file [SBJ_main.m](SBJ_main.m). You will see the following progress being displayed in real-time.
+Launch the file [main.m](main.m). You will see the following progress being displayed in real-time.
 
 <p align="center">
 	<img src="images/progress.gif" width="480">

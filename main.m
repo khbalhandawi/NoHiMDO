@@ -48,8 +48,7 @@ NoHi_options.save_subproblems = false;
 NoHi_options.solver = 'mads'; % options are : 'mads','sqp','interior-point','active-set','trust-region-reflective'
 NoHi_options.solver_display = false;
 
-PB = SBJ_problem_definition_1; % <------------------ Hierarchical formulation
-% PB = SBJ_problem_definition_2; % <------------------ Non-hierarchical formulation
+PB = Basic_problem_definition; % <------------------ basic problem formulation
 output = NoHiSolver(PB,NoHi_options);
 output
 
