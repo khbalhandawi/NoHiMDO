@@ -17,6 +17,8 @@ Launch the file [SBJ_main.m](SBJ_main.m). You will see the following progress be
 	<img src="images/progress.gif" width="480">
 </p>
 
+Have a look at this file ([SBJ_problem_readme.md](SBJ_problem_readme.md)) to understand how the problems are defined inside the code.
+
 ## Dependencies 
 [![Generic badge](https://img.shields.io/badge/MATLAB-2019b-<COLOR>.svg)](https://www.mathworks.com/downloads/)
 
